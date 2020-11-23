@@ -16,11 +16,15 @@
         </ion-avatar>
         <ion-label>
           <h1>{{item.nama}}</h1>
-          <p>fgfdghfdthfghfgh</p>
-          <p>fgfdghfdthfghfgh</p>
+          <p>{{item.nik}}</p>
+          <p>{{item.tglLahir}}-{{item.tglLahir}}</p>
         </ion-label>
       </ion-item>
     </ion-list>
   </div>
-  <button (click)="show()">dsfsdgfdgh</button>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="show()">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
