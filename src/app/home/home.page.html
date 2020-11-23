@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Data Pegawai
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-list>
+      <ion-item *ngFor="let item of dataPegawai">
+        <ion-avatar slot="start">
+          <img
+            src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+        <ion-label>
+          <h1>{{item.nama}}</h1>
+          <p>fgfdghfdthfghfgh</p>
+          <p>fgfdghfdthfghfgh</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+  <button (click)="show()">dsfsdgfdgh</button>
+</ion-content>

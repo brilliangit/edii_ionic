@@ -1,0 +1,8 @@
+{
+  "name": "edii",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
