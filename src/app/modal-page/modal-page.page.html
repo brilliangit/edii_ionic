@@ -8,19 +8,19 @@
   <div id="container">
     <ion-item>
       <ion-label position="floating">Nama</ion-label>
-      <ion-input [(ngModel)]="formData.nama"></ion-input>
+      <ion-input [(ngModel)]="formData.nama" placeholder="Your name"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Nik</ion-label>
-      <ion-input [(ngModel)]="formData.nik"></ion-input>
+      <ion-input [(ngModel)]="formData.nik" placeholder="4356365476576587687"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Jenis kelamin</ion-label>
-      <ion-input [(ngModel)]="formData.jenisKelamin"></ion-input>
+      <ion-input [(ngModel)]="formData.jenisKelamin" placeholder="Laki-laki/Perempuan"></ion-input>
     </ion-item>
     <ion-item>
-      <ion-label position="floating" [(ngModel)]="formData.tglLahir">Tanggal Lahir</ion-label>
-      <ion-input></ion-input>
+      <ion-label position="floating">Tanggal Lahir</ion-label>
+      <ion-input [(ngModel)]="formData.tglLahir" placeholder="23 Maret 1991"></ion-input>
     </ion-item>
     <ion-button expand="block" (click)="store()">SIMPAN</ion-button>
     <ion-button expand="block" fill="outline" (click)="dismiss()">Batal</ion-button>
